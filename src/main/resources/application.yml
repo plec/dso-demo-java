@@ -11,4 +11,4 @@ spring:
       password: root
       authentication-database: admin
   liquibase:
-    change-log: classpath:db/changelog/0000-initial_schema.xml
+    change-log: classpath:db/master.xml
