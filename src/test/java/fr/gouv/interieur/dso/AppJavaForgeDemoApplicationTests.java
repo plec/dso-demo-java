@@ -1,9 +1,14 @@
 package fr.gouv.interieur.dso;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import static org.assertj.core.api.Assertions.assertThat;
 
-@SpringBootTest
+import org.junit.jupiter.api.Test;
+
 class AppJavaForgeDemoApplicationTests {
+
+    @Test
+    public void boolean_test() {
+        assertThat(true).isEqualTo(true);
+    }
 
 }
